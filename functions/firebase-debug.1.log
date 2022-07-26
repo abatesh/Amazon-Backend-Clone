@@ -1,0 +1,28 @@
+[debug] [2022-07-04T22:20:23.246Z] ----------------------------------------------------------------------
+[debug] [2022-07-04T22:20:23.251Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abate\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2022-07-04T22:20:23.252Z] CLI Version:   11.2.0
+[debug] [2022-07-04T22:20:23.252Z] Platform:      win32
+[debug] [2022-07-04T22:20:23.253Z] Node Version:  v16.15.0
+[debug] [2022-07-04T22:20:23.254Z] Time:          Mon Jul 04 2022 18:20:23 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-07-04T22:20:23.255Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-04T22:20:23.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-04T22:20:23.438Z] > authorizing via signed-in user (abatesh2016@gmail.com)
+[debug] [2022-07-04T22:20:23.438Z] [iam] checking project backend-a8d06 for permissions ["firebase.projects.get"]
+[debug] [2022-07-04T22:20:23.444Z] > refreshing access token with scopes: []
+[debug] [2022-07-04T22:20:23.450Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-07-04T22:20:23.451Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-04T22:20:23.734Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-07-04T22:20:23.734Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-04T22:20:23.746Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/backend-a8d06:testIamPermissions [none]
+[debug] [2022-07-04T22:20:23.747Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/backend-a8d06:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-07-04T22:20:24.038Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/backend-a8d06:testIamPermissions 200
+[debug] [2022-07-04T22:20:24.039Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/backend-a8d06:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-07-04T22:20:24.098Z] [functions] Using node@16 from host.
+[debug] [2022-07-04T22:20:24.100Z] defaultcredentials: writing to file C:\Users\Abate\AppData\Roaming\firebase\abatesh2016_gmail_com_application_default_credentials.json
+[debug] [2022-07-04T22:20:24.106Z] DEBUG: Setting GAC to C:\Users\Abate\AppData\Roaming\firebase\abatesh2016_gmail_com_application_default_credentials.json
+[debug] [2022-07-04T22:20:24.107Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/backend-a8d06/adminSdkConfig [none]
+[debug] [2022-07-04T22:20:24.475Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/backend-a8d06/adminSdkConfig 200
+[debug] [2022-07-04T22:20:24.475Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/backend-a8d06/adminSdkConfig {"projectId":"backend-a8d06","storageBucket":"backend-a8d06.appspot.com"}
+[debug] [2022-07-04T22:20:24.496Z] [functions] Watching "C:\Users\Abate\OneDrive\Desktop\Evangadi\Project Folder\Abate-Amazon-Backend\abate-amazon-backend-end\functions" for Cloud Functions...
+[debug] [2022-07-04T22:20:24.510Z] Validating nodejs source
